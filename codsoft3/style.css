@@ -5,33 +5,90 @@ body {
 }
 
 header {
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     /* padding: 20px; */
 }
 .head-bar{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    background: linear-gradient(to right, #ff8c00, transparent, #ff69b4, #8b0000);
+    background: linear-gradient(to right, #ff8c00, #ff69b4);
+    align-items: center;
+    color: white;
+    height: 7vh;
 }
 .head-icons{
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
+.head-icons .icon{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 6vh;
+    border-left:1px solid;
+    border-right:1px solid;
+}
+.head-info{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.head-info .number{
+    padding: 10px;
+}
+.head-info .email{
+    padding: 10px;
+}
+.break{
+    border-right: 1px solid;
+}
+.head-button{
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 25px;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 9vh;
 
+}
+.logo img{
+    width: 180px;
+    height: 100px;
+}
 nav ul {
+    display: flex;
+    align-items: center;
+    height: 7vh;
     list-style-type: none;
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
     margin-right: 10px;
+    font-weight: 700;
+    font-size: large;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;
+    padding: 10px;
+}
+nav ul li .special-button{
+    background-color: orange;
+}
+.nav-button button{
+    height: 9vh;
+    background: #000;
+    color: #fff;
 }
 
 .hero {
