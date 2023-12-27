@@ -102,6 +102,7 @@ nav :hover{
   color: #fff;
   font-size: 1.3em;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .icons {

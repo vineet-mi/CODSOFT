@@ -3,31 +3,196 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link rel="stylesheet" href="styles.css">
-    <title>Calculator</title>
+    <title>LANDING PAGE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="calculator">
-      <input type="text" id="display" readonly placeholder="0">
-      <div class="buttons">
-        <button onclick="clearDisplay()">C</button>
-        <button onclick="appendCharacter('/')">/</button>
-        <button onclick="appendCharacter('-')">-</button>
-        <button onclick="appendCharacter('+')">+</button>
-        <button onclick="appendCharacter('7')">7</button>
-        <button onclick="appendCharacter('8')">8</button>
-        <button onclick="appendCharacter('9')">9</button>
-        <button onclick="appendCharacter('6')">6</button>
-        <button onclick="appendCharacter('5')">5</button>
-        <button onclick="appendCharacter('4')">4</button>
-        <button onclick="appendCharacter('3')">3</button>
-        <button onclick="appendCharacter('*')">*</button>
-        <button onclick="appendCharacter('2')">2</button>
-        <button onclick="appendCharacter('1')">1</button>
-        <button onclick="appendCharacter('0')">0</button>
-        <button onclick="calculateResult()">=</button>
+    <header>
+      <div class="head-bar">
+        <div class="head-icons">
+          <div class="twitter icon">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div class="twitter icon">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="facebook icon">
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <div class="youtube icon">
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div class="linkedin icon">
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+        <div class="head-info">
+          <div class="number break">+91 9855968x00</div>
+          <div class="email">example@gmail.com</div>
+        </div>
+        <div class="head-button">Request a Call</div>
       </div>
-    </div>
-    <script src="Script.js"></script>
+      <nav>
+        <div class="logo">
+          <img src="download-removebg-preview.png" alt="" srcset="" />
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li class="dropdown">
+            <a href="#">Page <span class="arrow-down"></span></a>
+            <div class="dropdown-content">
+              <a href="#">Service 1</a>
+              <a href="#">Service 2</a>
+              <a href="#">Service 3</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Services <span class="arrow-down"></span></a>
+            <div class="dropdown-content">
+              <a href="#">Service 1</a>
+              <a href="#">Service 2</a>
+              <a href="#">Service 3</a>
+            </div>
+          </li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a class="special-button" href="#">Buy Now</a></li>
+        </ul>
+        <div class="nav-button">
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-header">
+          <p>WE ARE CREATIVE</p>
+          <h1>REATIVE DIGITAL AGENCY</h1>
+        </div>
+        <div class="hero-description">
+          <p>
+            Lorem Ipsum has been the industry standard dummy text ever since the
+            1500s when an unknown printer took a galley of type and scrambled it
+            to make a type specimen book.
+          </p>
+        </div>
+        <div class="hero-button">
+          <a href="#" class="cta-colored">READ MORE</a>
+          <a href="#" class="cta-plain">REQUEST A CONSULT</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <div class="info-content">
+        <div class="info-header">
+          <i class="fa-solid fa-rocket"></i>
+          <h1>Launch Business</h1>
+        </div>
+        <div class="info-description">
+          Lorem Ipsum has been the industry standard dummy text ever since the
+          1500s when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book.
+        </div>
+      </div>
+      <div class="info-content">
+        <div class="info-header">
+          <i class="fa-solid fa-headphones"></i>
+          <h1>Online Support Team</h1>
+        </div>
+        <div class="info-description">
+          Lorem Ipsum has been the industry standard dummy text ever since the
+          1500s when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book.
+        </div>
+      </div>
+      <div class="info-content">
+        <div class="info-header">
+          <i class="fa-regular fa-clock"></i>
+          <h1>Time Management</h1>
+        </div>
+        <div class="info-description">
+          Lorem Ipsum has been the industry standard dummy text ever since the
+          1500s when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book.
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about-left">
+        <div class="about-header">
+          <h2>ABOUT US</h2>
+          <h3>
+            15 years, we are passionate about achieving better results for our
+            clients
+          </h3>
+        </div>
+        <about class="about-bottom">
+          <p>
+            Lorem Ipsum has been the industry standard dummy text ever since the
+            1500s when an unknown printer took a galley of type and scrambled it
+            to make a type specimen book. Ipsum has been the industry standard
+            dummy text ever since the 1500s when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. Ipsum
+            has been the industry standard dummy text ever since the 1500s when
+            an unknown printer took a galley of type and scrambled it to make a
+            type specimen book.
+          </p>
+        </about>
+        <div class="about-button">
+          <button>READ MORE</button>
+        </div>
+      </div>
+      <div class="about-right">
+        <img src="istockphoto-1388645967-612x612-removebg-preview.png" alt="" />
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="services-left">
+        <div class="about-header">
+          <h2>ABOUT US</h2>
+        </div>
+        <about class="services-bottom">
+          <div class="image-section">
+            <img src="dylan-gillis-KdeqA3aTnBY-unsplash.jpg" alt="" />
+            <div class="image-bar">
+              <i class="fa-solid fa-headphones-simple"></i>
+              <h2>User Experince</h2>
+            </div>
+          </div>
+          <div class="image-section">
+            <img src="jason-goodman-vbxyFxlgpjM-unsplash.jpg" alt="" />
+            <div class="image-bar">
+              <i class="fa-brands fa-windows"></i>
+              <h2>Creative Design</h2>
+            </div>
+          </div>
+          <div class="image-section">
+            <img src="jason-goodman-Oalh2MojUuk-unsplash.jpg" alt="" />
+            <div class="image-bar">
+              <i class="fa-solid fa-dollar-sign"></i>
+              <h2>Retina Ready</h2>
+            </div>
+          </div>
+        </about>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>CONTACT</h2>
+      <p>Email: demolanding@gmail.com</p>
+      <p>Phone: -12-345-78901</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2022 All Rights Reserved</p>
+    </footer>
   </body>
 </html>
